@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Job Preparation Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Smart Job Preparation Tracker</h1>
+  <div id="toolbar">
+    <button onclick="toggleTheme()">🌓 Toggle Theme</button>
+  </div>
+
+  <!-- Skill Tracker -->
+  <section>
+    <h2>📚 Skills</h2>
+    <input id="skillInput" placeholder="New skill (e.g. DSA)" />
+    <button onclick="addSkill()">Add Skill</button>
+    <ul id="skillList"></ul>
+  </section>
+
+  <!-- Company Applications -->
+  <section>
+    <h2>🏢 Companies</h2>
+    <input id="companyInput" placeholder="Company name (e.g. Google)" />
+    <button onclick="addCompany()">Add Company</button>
+    <ul id="companyList"></ul>
+  </section>
+
+  <!-- Daily Tasks -->
+  <section>
+    <h2>✅ Daily Prep Tasks</h2>
+    <input id="taskInput" placeholder="New task" />
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+:root {
+  --bg: #f0f0f0;
+  --fg: #000;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  margin: 20px;
+}
+.dark {
+  --bg: #121212;
+  --fg: #fff;
+}
+h1, h2 {
+  text-align: center;
+}
+section {
+  margin-bottom: 20px;
+}
+input {
+  padding: 6px;
+  margin-right: 4px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 4px 0;
+  display: flex;
+  align-items: center;
+}
+li input[type="checkbox"] {
+  margin-right: 8px;
+}
